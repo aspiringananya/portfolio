@@ -23,8 +23,4 @@ export const skillList = [
         skillName: 'Redux',
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/redux.png',
     },
-    {
-        skillName: 'NodeJS',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/node.png',
-    },
 ];
