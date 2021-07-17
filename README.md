@@ -1,6 +1,6 @@
 # React Portfolio
 
-Check it live here - [http://aspiringananya.github.io/portfolio/](http://aspiringananya.github.io/portfolio/)
+Check it live here - [https://aspiringananya.github.io/portfolio/](https://aspiringananya.github.io/portfolio/)
 
 ## Libraries used
 
