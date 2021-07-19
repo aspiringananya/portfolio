@@ -119,8 +119,8 @@ const About = () => {
           {/* Sub section 5 */}
           <h3 className="about-sub-head">Dancer</h3>
           <p className="about-details">
-            A trained Bharatnatyam dancer ! What could be a better than to shake
-            a leg to beat those Monday blues...
+            A trained Bharatnatyam dancer ! What could be a better way than to
+            shake a leg to beat those Monday blues...
           </p>
         </div>
         <div className="about-main-right">
