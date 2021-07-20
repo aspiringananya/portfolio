@@ -10,6 +10,23 @@
   width: 50%;
 }
 
+.carousel-slider {
+  max-width: 50%;
+  max-height: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button {
+  background-color: #fefefe;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: none;
+}
+
 .about-main-right {
   display: flex;
   justify-content: flex-end;
@@ -75,5 +92,12 @@
   .about-main-left,
   .about-main-right {
     width: 100%;
+  }
+
+  .button {
+    display: none;
+  }
+  .art-works {
+    display: none;
   }
 }

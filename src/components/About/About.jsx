@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import FooterLink from "../FooterLink/FooterLink";
+import Modal from "../Modal/Modal";
 import Header from "../Header/Header";
 import aboutVector from "./../../assets/about_vector.png";
 import "./About.css";
@@ -9,8 +10,14 @@ import artist from "./../../assets/artist.gif";
 import learner from "./../../assets/learner.gif";
 import music from "./../../assets/music.gif";
 import dance from "./../../assets/dance.gif";
+import carousel from "./../../assets/carousel.png";
 
 const About = () => {
+  const [show, setShow] = useState(false);
+
+  const handleShow = () => setShow(true);
+  const closeModal = () => setShow(false);
+
   return (
     <div className="section-container">
       <Header
@@ -71,6 +78,14 @@ const About = () => {
             Painting is a great way to vent out emotions and shoo away stress.
             It brings out the creative side in me , love to draw human sketches
             and portraits.
+            <br></br>
+            <p className="art-works">
+              Click below to check out some of my Art Works!!
+            </p>
+            <button onClick={handleShow} className="button">
+              <img src={carousel} alt="animation" className="carousel-slider" />
+            </button>
+            {show && <Modal closeModal={closeModal} />}
           </p>
         </div>
         <div className="about-main-right">

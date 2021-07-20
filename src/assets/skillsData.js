@@ -1,26 +1,43 @@
+import java from "./java.png";
+import html from "./html.png";
+import css from "./css.png";
+import springBoot from "./springBoot.png";
+import sql from "./sql.png";
+import react from "./react.png";
+import redux from "./redux.png";
+import js from "./js.png";
+
 export const skillList = [
     {
         skillName: 'Java',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/java.png',
+        skillUrl: java,
+    },
+    {
+        skillName: 'Spring Boot',
+        skillUrl: springBoot,
+    },
+    {
+        skillName: 'SQL',
+        skillUrl: sql,
     },
     {
         skillName: 'HTML',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/html.png',
+        skillUrl: html,
     },
     {
         skillName: 'CSS',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/css.png',
+        skillUrl: css,
     },
     {
         skillName: 'JavaScript',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/js.png',
+        skillUrl: js,
     },
     {
         skillName: 'React',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/react.png',
+        skillUrl: react
     },
     {
         skillName: 'Redux',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/redux.png',
+        skillUrl: redux,
     },
 ];
